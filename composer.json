@@ -1,0 +1,21 @@
+{
+    "name": "jav-lon/yii2-blog",
+    "description": "Blog module for Yii",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," blog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javlonbek Turebayev",
+            "email": "javlonbek0591@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jav_lon\\blog\\": ""
+        }
+    }
+}
