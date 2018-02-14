@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \jav_lon\blog\AutoloadExample::widget(); ?>```
+<?= \jav_lon\blog\AutoloadExample::widget(); ?>```# yii2-blog
