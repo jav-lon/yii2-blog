@@ -46,7 +46,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'url:url',
             [
                 'attribute' => 'status_id',
-                'filter' => \common\modules\blog\models\Blog::getStatusList(),
+                'filter' => \jav_lon\blog\models\Blog::getStatusList(),
                 'value' => 'statusName',
             ],
             'sort',

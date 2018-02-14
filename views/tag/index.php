@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel common\modules\blog\models\TagSearch */
+/* @var $searchModel jav_lon\blog\models\TagSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Tags';

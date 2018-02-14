@@ -1,10 +1,10 @@
 <?php
 
-namespace common\modules\blog\controllers;
+namespace jav_lon\blog\controllers;
 
 use Yii;
-use common\modules\blog\models\Tag;
-use common\modules\blog\models\TagSearch;
+use jav_lon\blog\models\Tag;
+use jav_lon\blog\models\TagSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

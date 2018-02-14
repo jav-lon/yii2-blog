@@ -1,13 +1,13 @@
 <?php
 
-namespace common\modules\blog\models;
+namespace jav_lon\blog\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * BlogSearch represents the model behind the search form of `common\modules\blog\models\Blog`.
+ * BlogSearch represents the model behind the search form of `jav_lon\blog\models\Blog`.
  */
 class BlogSearch extends Blog
 {

@@ -8,9 +8,9 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $model common\modules\blog\models\Blog */
+/* @var $model jav_lon\blog\models\Blog */
 /* @var $form yii\widgets\ActiveForm */
-/* @var $dataSelect \common\modules\blog\models\Tag */
+/* @var $dataSelect \jav_lon\blog\models\Tag */
 ?>
 
 <div class="blog-form">
@@ -47,7 +47,7 @@ use yii\helpers\Url;
 
     <?= $form->field($model, 'url')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'status_id')->dropDownList(\common\modules\blog\models\Blog::getStatusList()) ?>
+    <?= $form->field($model, 'status_id')->dropDownList(\jav_lon\blog\models\Blog::getStatusList()) ?>
 
     <?= $form->field($model, 'sort')->textInput() ?>
 

@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\modules\blog\models\Tag */
+/* @var $model jav_lon\blog\models\Tag */
 
 $this->title = 'Update Tag: {nameAttribute}';
 $this->params['breadcrumbs'][] = ['label' => 'Tags', 'url' => ['index']];

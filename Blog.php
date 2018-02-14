@@ -1,6 +1,6 @@
 <?php
 
-namespace common\modules\blog;
+namespace jav_lon\blog;
 
 /**
  * blog module definition class
@@ -10,7 +10,7 @@ class Blog extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'common\modules\blog\controllers';
+    public $controllerNamespace = 'jav_lon\blog\controllers';
     public $defaultRoute = 'blog';
 
     /**

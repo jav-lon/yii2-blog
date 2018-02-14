@@ -1,18 +1,18 @@
 <?php
 
-namespace common\modules\blog\controllers;
+namespace jav_lon\blog\controllers;
 
 use common\models\ImageManager;
 use Yii;
-use common\modules\blog\models\Blog;
-use common\modules\blog\models\BlogSearch;
+use jav_lon\blog\models\Blog;
+use jav_lon\blog\models\BlogSearch;
 use yii\web\Controller;
 use yii\web\MethodNotAllowedHttpException;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\ArrayHelper;
-use common\modules\blog\models\Tag;
-use common\modules\blog\models\BlogTag;
+use jav_lon\blog\models\Tag;
+use jav_lon\blog\models\BlogTag;
 
 /**
  * BlogController implements the CRUD actions for Blog model.

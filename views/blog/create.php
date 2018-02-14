@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model common\modules\blog\models\Blog */
+/* @var $model jav_lon\blog\models\Blog */
 /* @var $dataSelect \backend\controllers\BlogController */
 
 $this->title = 'Create Blog';

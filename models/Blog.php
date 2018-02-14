@@ -1,6 +1,6 @@
 <?php
 
-namespace common\modules\blog\models;
+namespace jav_lon\blog\models;
 
 use common\models\ImageManager;
 use common\models\User;
